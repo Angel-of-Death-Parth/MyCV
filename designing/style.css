@@ -105,7 +105,7 @@ a {
 	left: 40vw;
 	top: calc(50vh - 150px);
 	display: block;
-	background-image: url(../imgs/loader-gif.gif);
+	background-image: url(../imgs/loader.gif);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center;
