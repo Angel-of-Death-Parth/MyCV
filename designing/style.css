@@ -109,7 +109,6 @@ a {
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center;
-	z-index: 20;
 	animation-name: load;
 	animation-duration: 2s;
 	animation-iteration-count:1;
