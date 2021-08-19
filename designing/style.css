@@ -91,7 +91,7 @@ a {
 	position: fixed;
 	z-index: 20;
 	animation-name: load;
-	animation-duration: 4s;
+	animation-duration: 2s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
 }
@@ -111,7 +111,7 @@ a {
 	background-position: center;
 	z-index: 20;
 	animation-name: load;
-	animation-duration: 3s;
+	animation-duration: 2s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
 }
