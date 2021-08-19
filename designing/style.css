@@ -1,0 +1,123 @@
+/*Small effects*/
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+	width: 8px;
+	background: rgba(0,0,0,0.9);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+	width: 4px;
+	background: #f1f1f1;
+	border-radius: 5px;
+}
+/*nav-bar*/
+nav {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav-ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    padding: 10px;
+}
+.nav-li {
+    height: 4vh;
+    transition-duration: 2s;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px ;
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
+    font-family: 'comfortaa';
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+
+.nav-img {
+    border: none;
+    border-radius: 50%;
+    margin: 10px 10px 0px 10px;
+    width: 50px;
+}
+
+.nav-item:hover{
+	transition-duration: 2s;
+    animation-name: shake;
+    animation-duration: 1s;
+}
+
+@keyframes shake {
+	0%{transform: rotate(0deg);}
+	12%{transform: rotate(-10deg);}
+	24%{transform: rotate(10deg);}
+	36%{transform: rotate(-10deg);}
+	50%{transform: rotate(0deg);}
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-hamburger {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 30px;
+    width: 17%;
+    cursor: pointer;
+}
+/* Loader */
+#loader{
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	background-color: rgb(29, 29, 49);
+	position: fixed;
+	z-index: 20;
+	animation-name: load;
+	animation-duration: 4s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+#inload{
+	text-align: center;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: #FFFFFF;
+	left: 40vw;
+	top: calc(50vh - 150px);
+	display: block;
+	background-image: url(../imgs/loader-gif.gif);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	z-index: 20;
+	animation-name: load;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes load{
+	0%{transform: translate(0,-100vh);}
+	1%{transform: translate(0,0);}
+	80% {transform: translate(0,0);}
+	100%{transform: translate(0,-100vh);}
+}
