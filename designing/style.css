@@ -121,3 +121,6 @@ a {
 	80% {transform: translate(0,0);}
 	100%{transform: translate(0,-100vh);}
 }
+body{
+    background-color: red;
+}
