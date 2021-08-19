@@ -90,27 +90,9 @@ a {
 	background-color: rgb(29, 29, 49);
 	position: fixed;
 	z-index: 20;
+    animation-name: color-change-boi;
 	animation-name: load;
 	animation-duration: 2s;
-	animation-iteration-count:1;
-	animation-fill-mode: forwards;
-}
-#inload{
-	text-align: center;
-	height: 500px;
-	width: 500px;
-	border-radius: 50%;
-	position: absolute;
-	background-color: #FFFFFF;
-	left: 40vw;
-	top: calc(50vh - 150px);
-	display: block;
-	background-image: url(../imgs/loader.gif/);
-	background-size: cover;
-	background-position: center;
-	z-index: 20;
-	animation-name: load;
-	animation-duration: 3s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
 }
@@ -119,6 +101,13 @@ a {
 	1%{transform: translate(0,0);}
 	80% {transform: translate(0,0);}
 	100%{transform: translate(0,-100vh);}
+}
+@keyframes color-change-boi{
+    0%{background-color: rgb(5, 5, 109);}
+    25%{background-color: rgb(28, 5, 109);}
+    50%{background-color: rgb(51, 5, 109);}
+    75%{background-color: rgb(76, 5, 109);}
+    100%{background-color: rgb(101, 5, 109);}
 }
 body {
     margin: 0;
