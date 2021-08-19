@@ -105,12 +105,12 @@ a {
 	left: 40vw;
 	top: calc(50vh - 150px);
 	display: block;
-	background-image: url(../imgs/loader.gif);
+	background-image: url(../imgs/loader.gif/);
 	background-size: cover;
-    background-repeat: no-repeat;
 	background-position: center;
+	z-index: 20;
 	animation-name: load;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
 }
