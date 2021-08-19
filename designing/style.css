@@ -91,8 +91,9 @@ a {
 	position: fixed;
 	z-index: 20;
     animation-name: color-change-boi;
+    animation-duration: 3s;
 	animation-name: load;
-	animation-duration: 2s;
+	animation-duration: 4s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
 }
