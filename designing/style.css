@@ -114,3 +114,6 @@ a {
 body {
     margin: 0;
 }
+.module {
+    background-image: url(/imgs/background.jpg/);
+}
