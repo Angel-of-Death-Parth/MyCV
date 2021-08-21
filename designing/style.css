@@ -112,16 +112,11 @@ a {
     100%{background-color: rgb(101, 5, 109);}
 }
 body {
-    height: 100vh;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(
-    #666,
-    #222
-    );
+    padding: 0;
 }
-.bg{
-    background-image: url(&quot;imgs/background.jpg&quot;); background-position: calc(50% + -0.573529px) calc(50% + 8.15733px);
+section{
+    height: 100vh;
+    background-image: url(/imgs/background.jpg/);
+    overflow: hidden;
 }
