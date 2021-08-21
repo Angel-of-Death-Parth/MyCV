@@ -27,7 +27,7 @@ function navShow() {
         button_nav.innerHTML = '&#x2716;'
     }
 }
-const el = document.querySelector("#bg");
+const el = document.querySelector("#module");
 
 el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionX = -e.offsetX + "px";

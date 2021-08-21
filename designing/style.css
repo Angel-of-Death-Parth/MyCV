@@ -91,10 +91,10 @@ a {
 	position: fixed;
 	z-index: 20;
     animation-name: color-change-boi;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count:1;
 	animation-name: load;
-	animation-duration: 4s;
+	animation-duration: 1.5s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
 }
@@ -111,9 +111,23 @@ a {
     75%{background-color: rgb(76, 5, 109);}
     100%{background-color: rgb(101, 5, 109);}
 }
+.module {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-image: url(https://images.unsplash.com/photo-1499162526249-f5b8b9ba9923?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=865bf5c0b77ceb22e88de9fd41c5a671);
+    background-size: 1000px;
+  }
+  
+  
 body {
+    height: 100vh;
     margin: 0;
-}
-.bg {
-    background-image: url(/imgs/background.jpg/);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+    #666,
+    #222
+    );
 }
