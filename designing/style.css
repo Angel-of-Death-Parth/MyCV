@@ -115,8 +115,6 @@ a {
     width: 1536px;
     height: 721.6px;
     border: 1px solid white;
-    background-image: url(/imgs/background.jpg/);
-    background-size: 1000px;
   }
   
   
@@ -130,4 +128,8 @@ body {
     #666,
     #222
     );
+}
+.bg{
+    width: 1536px;
+    height: 721.6px;
 }
