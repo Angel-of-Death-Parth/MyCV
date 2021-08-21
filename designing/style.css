@@ -111,13 +111,6 @@ a {
     75%{background-color: rgb(76, 5, 109);}
     100%{background-color: rgb(101, 5, 109);}
 }
-.module {
-    width: 1536px;
-    height: 721.6px;
-    border: 1px solid white;
-  }
-  
-  
 body {
     height: 100vh;
     margin: 0;
@@ -130,6 +123,5 @@ body {
     );
 }
 .bg{
-    width: 1536px;
-    height: 721.6px;
+    background-image: url(&quot;imgs/background.jpg&quot;); background-position: calc(50% + -0.573529px) calc(50% + 8.15733px);
 }
