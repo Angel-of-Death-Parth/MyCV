@@ -149,3 +149,8 @@ html{
     min-height:100%;
     overflow:hidden
 }
+#content{
+    width: 200px;
+    height: 100px;
+    background: red;
+}
