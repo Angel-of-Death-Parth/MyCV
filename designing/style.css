@@ -131,7 +131,7 @@ section{
     background-repeat: no-repeat;
     overflow: hidden;
 }
-#main{
+.main{
     width: 500px;
     Height: 1000px;
     border-radius: 15%;
